@@ -1,0 +1,147 @@
+html {
+	display : block;
+	height : 100%;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+   width: 80%;
+    background: #000;
+	margin: 0;
+	padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.form{
+	float: left;
+	background: #fff; 
+	padding-left: 30px;
+	box-shadow: inset 0 0 1em #eee, 0 1em 1em grey
+}
+
+
+.input{
+	border: 1px solid #E5E7EB;
+    padding: 2px;
+    margin-bottom: 15px;
+   
+	-webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px;    	
+}
+
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+
+input : valid {
+	border-color : green;
+}
+
+.error{
+	border: 1px solid red;
+	padding: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+}
+
+input : invalid {
+	border-color : red;
+}
+
+.inputdiv{
+	width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.rightdiv {
+	width: auto;
+    float: left;
+}
+
+.leftdiv {
+	width: auto;
+    float: left;
+    margin-right: 40px;
+}
+
+button {
+	padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: #596D48;
+    width: 140px;
+    box-shadow: none;
+}
+
+.buttondiv {
+	display: block;
+    width: 93%;
+	float: left;
+	padding-left: 30px;
+	margin-top: 30px;
+}
+
+.textdiv{
+	float: left;
+    margin-top: 25px;
+	padding-left: 30px;
+}
+.sizelabel{
+	font-size: 10px;
+}
+
+abbr{
+	color: #596D48;
+}
+
+#Imgdiv{
+	width: 40%;
+    float: left;
+    height: 100%;
+	display: block; 
+}
+
+#Formdiv{	
+	float: left;
+    width: 60%;
+    height: 100%;
+    display: block;
+	background: #eee
+}
+
+.fontText{
+	font-weight: bold;
+    font-size: 20px;
+}
+
+.fontstl{
+	font-weight: bold;
+    font-size: 15px;
+}
+
+#Imgdiv {
+    background-image: url('./images/divbg.webp');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+.Imgdivlogo{
+	width: 100%;
+    height: 91px;
+    background: #000;
+    opacity: 0.5;
+    margin-top: 157px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
